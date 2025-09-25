@@ -1,41 +1,44 @@
 # Usage Guide
 
-## Running the Application
+## Run the Application
 
-1. Ensure you have Java JDK 8 or later installed
+1. Ensure that you have the Java JDK 8 or later version installed
 2. Clone the repository
-3. Navigate to the project directory
+3. Navigate to project directory
 4. Compile: `javac -d bin src/**/*.java`
 5. Run: `java -cp bin edu.ccrm.Main`
 
-## Sample Operations
 
-### Adding a Student
+
+## Sample of Operations performed
+
+### Add a Student
 1. Select "Manage Students" from main menu
 2. Choose "Add Student"
-3. Enter student details when prompted
+3. Enter details of the student when prompt appears
 
-### Adding a Course
+### Enroll a Student
+1. Select "Manage Enrollments" from the main menu
+2. Choose "Enroll Student in Course"
+3. Enter student's ID and the course code
+
+### Add a Course
 1. Select "Manage Courses" from main menu
 2. Choose "Add Course"
-3. Enter course details and select semester
+3. Enter details of course and select the semester
 
-### Enrolling a Student
-1. Select "Manage Enrollments" from main menu
-2. Choose "Enroll Student in Course"
-3. Enter student ID and course code
 
-### Generating a Transcript
+### Generate a Transcript
 1. Select "Manage Students" from main menu
 2. Choose "Generate Transcript"
-3. Enter student ID
+3. Enter the student's ID
 
-### Importing Data
-1. Place CSV files in the data directory
-2. Select "Import/Export Data" from main menu
+### Import Data
+1. Place CSV files in data directory
+2. Select "Import/Export Data" from the main menu
 3. Choose import option
 
-### Creating Backups
+### Create Backup
 1. Select "Backup Operations" from main menu
 2. Choose "Create Backup"
-3. Backups will be stored in timestamped folders
+3. Backups stored in the timestamped folders
