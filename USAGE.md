@@ -13,7 +13,7 @@
 ## Sample of Operations performed
 
 ### Add a Student
-1. Select "Manage Students" from main menu
+1. Select "Manage Student" from main menu
 2. Choose "Add Student"
 3. Enter details of the student when prompt appears
 
@@ -23,7 +23,7 @@
 3. Enter student's ID and the course code
 
 ### Add a Course
-1. Select "Manage Courses" from main menu
+1. Select "Manage Course" from main menu
 2. Choose "Add Course"
 3. Enter details of course and select the semester
 
@@ -41,4 +41,4 @@
 ### Create Backup
 1. Select "Backup Operations" from main menu
 2. Choose "Create Backup"
-3. Backups stored in the timestamped folders
+3. Backups are stored in the timestamped folders
