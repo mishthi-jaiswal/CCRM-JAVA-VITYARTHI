@@ -25,7 +25,7 @@ It is a Java console application for maintaing records of students, courses, gra
 | Platform | Full Name | Purpose | Key Features |
 |----------|-----------|---------|--------------|
 | Java SE | Standard Edition | Desktop and server applications | Core Java libraries, JVM |
-| Java EE | Enterprise Edition ||| Servlets, JSP, EJB, JMS (now Jakarta EE) |
+| Java EE | Enterprise Edition |Commercial Applications| Servlets, JSP, EJB, JMS (now Jakarta EE) |
 | Java ME | Micro Edition | small devices | Limited libraries for constrained environments |
 
 ## Java Architecture
