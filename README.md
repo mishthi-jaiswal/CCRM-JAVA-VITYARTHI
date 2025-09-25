@@ -1,6 +1,6 @@
 # Campus Course and  Records Manager (CCRM)
 
-A comprehensive Java console application for maintaing records of students, courses, grades , etc  in an university.
+It is a Java console application for maintaing records of students, courses, grades , etc  in an university.
 
 ## Features
 
@@ -25,7 +25,7 @@ A comprehensive Java console application for maintaing records of students, cour
 | Platform | Full Name | Purpose | Key Features |
 |----------|-----------|---------|--------------|
 | Java SE | Standard Edition | Desktop and server applications | Core Java libraries, JVM |
-| Java EE | Enterprise Edition | Servlets, JSP, EJB, JMS (now Jakarta EE) |
+| Java EE | Enterprise Edition ||| Servlets, JSP, EJB, JMS (now Jakarta EE) |
 | Java ME | Micro Edition | small devices | Limited libraries for constrained environments |
 
 ## Java Architecture
@@ -34,15 +34,15 @@ A comprehensive Java console application for maintaing records of students, cour
 - **JRE (Java Runtime Environment)**: Runtime environment for executing Java programs
 - **JVM (Java Virtual Machine)**: Executes Java bytecode, portable
 
-The JDK contains the JRE, which contains the JVM. Developers use the JDK to create applications, which run on the JRE using the JVM.
+JDK contains JRE, which contains the JVM. Developers use the JDK to create applications, which run on  JRE using the JVM.
 
 ## Installation on Windows
 
 1. Download JDK from Oracle's website
-2. Run installer and follow the instructions 
+2. Run installer and follow  instructions 
 3. Set JAVA_HOME environment variable to JDK installation path
 4. Add %JAVA_HOME%\bin to PATH environment variable
-5. Verify installation with `java -version` in command prompt
+5. Do verification of installation with `java -version` in command prompt
 
 ## Eclipse IDE Setup
 
@@ -51,14 +51,14 @@ The JDK contains the JRE, which contains the JVM. Developers use the JDK to crea
 3. Create a new Java project
 4. Configure JDK in project properties
 5. Create packages and classes as needed
-Note-reference taken from Eclipse's website.
+- Note-reference taken from Eclipse's website.
 
 ## How to Run
 
-1. Clone the repository
+1. Clone repository
 2. Compile with `javac -d bin src/**/*.java`
 3. Run with `java -cp bin edu.ccrm.Main`
 
 ## Enabling Assertions
 
-Add `-ea` flag when running the application:
+Add `-ea` flag when running application:
